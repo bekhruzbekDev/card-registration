@@ -1,0 +1,150 @@
+.wrapper {
+  width: 100%;
+  max-width: 541px;
+  min-height: 527px;
+  position: relative;
+  @media (max-width: 895px) {
+    min-height: 390px;
+  }
+  @media (max-width: 575px) {
+    max-width: 343px;
+    min-height: 270px;
+    
+}
+}
+.cards {
+  width: 447px;
+  height: 245px;
+  border-radius: 6px;
+  @media (max-width: 575px) {
+    border-radius: 6px;
+    width: 285px;
+    height: 156px;
+  }
+}
+.cardOne {
+  background: linear-gradient(164deg, #6348fe 0%, #610595 100%);
+  padding: 26px 32px;
+  @media (max-width: 895px) {
+    position: absolute;
+    top: 130px;
+    z-index: 9999;
+    padding: 17px 19px;
+  }
+  @media (max-width: 575px) {
+    top: 103px;
+  }
+}
+.icons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 64px;
+  @media (max-width: 575px) {
+    margin-bottom: 37px;
+  }
+}
+.circleOne {
+  width: 47px;
+  height: 47px;
+  background-color: #fff;
+  border-radius: 50%;
+  @media (max-width: 575px) {
+    width: 30px;
+    height: 30px;
+  }
+}
+.circleTwo {
+  width: 21px;
+  height: 21px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  @media (max-width: 575px) {
+    width: 13px;
+    height: 13px;
+  }
+}
+.cardNumber {
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: 0.12em;
+  color: #fff;
+  @media (max-width: 575px) {
+    font-size: 18px;
+    margin-bottom: 17px;
+  }
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap > h2 {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fff;
+  @media (max-width: 575px) {
+    font-size: 9px;
+  }
+}
+.wrap > p {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fff;
+  @media (max-width: 575px) {
+    font-size: 9px;
+  }
+}
+/*---------------------- CardTwo style */
+.cardTwo {
+  background: linear-gradient(168.73deg, #ffffff 5%, #d2d3d9 91.69%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-top: 23px;
+  @media (max-width: 895px) {
+  padding-top: 14px;
+
+    top: 0;
+  }
+}
+.bgPatternOne {
+  width: 100%;
+  max-width: 447px;
+  height: 54px;
+  background: #2f2f2f;
+  margin-bottom: 24px;
+  @media (max-width: 575px) {
+    height: 34px;
+  margin-bottom: 15px;
+
+  }
+}
+.bgPatternTwo {
+  border-radius: 4px;
+  width: 361px;
+  height: 38px;
+  background: #adb5be;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 33px;
+  @media (max-width: 575px) {
+    width: 230px;
+  }
+}
+.bgPatternTwo > p {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-align: right;
+  color: #fff;
+}
+.icon {
+  width: 186px;
+  margin: 0 auto;
+  display: none;;
+}
