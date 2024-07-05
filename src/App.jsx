@@ -8,7 +8,7 @@ export function App() {
   const [isActive,setIsActive]=useState(false)
   return (
     <>
-      <img src="../public/assets/image/bg-image.png" alt="" className="bgImg" />
+      <img src="../assets/image/bg-image.png" alt="" className="bgImg" />
       <div className="container">
         <Card isCardInfo={isCardInfo}/>
       {!isActive?
